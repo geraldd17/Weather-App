@@ -16,9 +16,9 @@ const Weather = ({ water, imagen }) => {
 
     let url = "http://openweathermap.org/img/wn/"
     let iconUrl = url + water?.weather[0].icon + "@4x.png"
-    const iconotem = water?.weather[0].icon
+    //const iconotem = water?.weather[0].icon
 
-  
+   // <img className="card-icon2" src={`http://openweathermap.org/img/wn/${iconotem}@2x.png`} alt="icon-temp"  />
 
 
     return (
@@ -33,7 +33,7 @@ const Weather = ({ water, imagen }) => {
             <p className="speed"><i className="fa-solid fa-wind"> </i><span>Wind Speed:</span> {water?.wind.speed}m/s</p>
             <p className="Clouds"><i className="fa-solid fa-cloud"></i><span>Clouds:</span> {water?.clouds.all}%</p>
             <p className="Pressure"><i className="fa-solid fa-temperature-three-quarters"></i><span className="pressuree">Pressure:</span> {water?.main.pressure}hPa</p>
-            <img className="card-icon2" src={`http://openweathermap.org/img/wn/${iconotem}@2x.png`} alt="icon-temp"  />
+          
 
             <button onClick={handleButton} className="card-btn">Degrees °C/°F </button>
             {
