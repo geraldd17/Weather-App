@@ -38,7 +38,7 @@ function App() {
   }, [coordinates])
 
   
-  console.log(water)
+
   return (
     <div className="App"> 
       <Weather
