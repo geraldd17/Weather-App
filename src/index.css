@@ -148,12 +148,20 @@
         margin-right: 150px;
 
     }
+ 
 
 }
 
 .card-icon img {
     width: 180px;
     height: 180px;
+}
+
+@media(max-width: 768px) {
+    .card-icon2 img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .card-tem {
