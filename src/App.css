@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic
+}
+
+body {
+  background-color: darkslategray;
+}
+p{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+
+}
+span{
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+@media (max-width: 768px){
+
+  span{
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+  }
+}

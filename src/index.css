@@ -1,0 +1,220 @@
+.navar {
+    background-color: #335462;
+    max-width: 31rem;
+    height: 3rem;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px) {
+    .navar {
+        width: 20rem;
+    }
+}
+
+.container-navar {
+    color: #fff;
+    margin-top: 0;
+}
+
+
+.container-navar h3 {
+    padding: 10px;
+}
+
+.form-imput-principal {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.form-imput-principal input,
+.form-btn {
+    border-radius: 5px;
+
+}
+
+/******************Werther*******************************/
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 20rem;
+
+    }
+}
+
+.section-card {
+    margin-top: 20px;
+
+}
+
+.card-img {
+
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 768px) {
+    .card-img {
+        width: 300px;
+        height: 400px;
+
+    }
+
+}
+
+.card-btn,
+.card-title,
+.card-tem,
+.card-icon,
+.card-city,
+.card-clouds,
+.speed,
+.Clouds,
+.Pressure {
+    position: absolute;
+}
+
+.card-btn {
+    margin-top: 520px;
+    border: none;
+    border-radius: 10px;
+    background-color: #335462;
+    color: #fff;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .card-btn {
+        margin-top: 340px;
+        height: 30px;
+        width: 100px;
+    }
+}
+
+.card-title {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 60px;
+}
+
+@media(max-width: 768px) {
+    .card-title {
+        font-size: 40px;
+    }
+}
+
+.card-city {
+    margin-top: 100px;
+    color: #fff;
+    font-size: large;
+}
+
+@media(max-width: 768px) {
+    .card-city {
+        margin-top: 75px;
+    }
+}
+
+.card-icon {
+    margin-top: 220px;
+    margin-right: 210px;
+
+}
+
+@media(max-width: 768px) {
+    .card-icon {
+        margin-top: 100px;
+        margin-right: 150px;
+
+    }
+
+}
+
+.card-icon img {
+    width: 180px;
+    height: 180px;
+}
+
+.card-tem {
+    margin-top: 370px;
+    color: #fff;
+    font-size: x-large;
+    margin-right: 190px;
+}
+@media(max-width: 768px) {
+    .card-tem {
+        margin-top: 240px;
+        margin-right: 150px;
+    }
+
+}
+
+.card-clouds {
+    margin-top: 220px;
+    margin-left: 210px;
+}
+@media(max-width: 768px) {
+    .card-clouds {
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+}
+
+.speed {
+    margin-top: 280px;
+    margin-left: 210px;
+}
+@media(max-width: 768px) {
+    .speed {
+        margin-top: 190px;
+        margin-left: 120px;
+        font-size: 10px;
+    }
+}
+
+.Clouds {
+    margin-top: 325px;
+    margin-left: 132px;
+}
+@media (max-width: 768px){
+    .Clouds {
+        margin-top: 220px;
+        margin-left: 70px;
+        font-size: 10px;
+    }
+}
+
+.Pressure {
+    margin-top: 370px;
+    margin-left: 185px;
+}
+.pressuree{
+    margin-left: 15px;
+}
+
+@media(max-width: 768px){
+    .Pressure {
+        margin-top: 250px;
+        margin-left: 105px;
+        font-size: 10px;
+    }
+    .pressuree{
+        margin-left: 15px;
+    }
+}
