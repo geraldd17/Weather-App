@@ -26,7 +26,7 @@ const Weather = ({ water, imagen }) => {
             <img className="card-img" src={imagen} alt="imagen-RD" />
             <h1 className="card-title">Weather App</h1>
             <h2 className='card-city'>{`${water?.name}, ${water?.sys.country}`}</h2>
-            <p className="card-icon"><img src={ water ? iconUrl : ""} alt="icon-temp" /></p>
+            <p className="card-icon"><img src={iconUrl} alt="icon-temp" /></p>
 
             <p className="card-clouds">"{water?.weather[0].description}"</p>
             <p className="speed"><i class="fa-solid fa-wind"> </i><span>Wind Speed:</span> {water?.wind.speed}m/s</p>
