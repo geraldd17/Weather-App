@@ -39,7 +39,7 @@ const Weather = ({ water, imagen }) => {
                 tem ?
                     <p className="card-tem"> {celsius} °C</p> :
 
-                    <p className="card-tem"> {convertAf(celsius)} °F</p>
+                    <p className="card-tem"> {(convertAf(celsius)).toFixed(1)} °F</p>
             }
         </section>
     )
