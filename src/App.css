@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  margin-top: 70px ;
+}
+@media(max-width: 768px){
+
+  .App{
+ margin-top: 150px;
+  }
 }
 
 h1,

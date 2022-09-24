@@ -43,13 +43,18 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    
 
 
+}
+.section-card{
+    margin-top: 200px;
 }
 
 @media(max-width: 768px) {
     .container {
         max-width: 20rem;
+       
 
     }
 }
