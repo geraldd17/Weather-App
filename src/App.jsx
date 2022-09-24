@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Weather from './components/Weather'
 import axios from 'axios'
+import imagen from './assets/RD.png'
 
 function App() {
   
@@ -42,6 +43,7 @@ function App() {
     <div className="App"> 
       <Weather
        water={water}
+       imagen= {imagen}
       />
     </div>
   )

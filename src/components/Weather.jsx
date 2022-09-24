@@ -2,7 +2,8 @@ import React, { useState } from "react"
 
 
 
-const Weather = ({ water }) => {
+
+const Weather = ({ water, imagen }) => {
     const [tem, setTem] = useState(true)
     const handleButton = () => setTem(!tem)
 
@@ -22,7 +23,7 @@ const Weather = ({ water }) => {
     return (
 
         <section className='section-card container'>
-            <img className="card-img" src="./src/assets/RD.png" alt="imagen-RD" />
+            <img className="card-img" src={imagen} alt="imagen-RD" />
             <h1 className="card-title">Weather App</h1>
             <h2 className='card-city'>{`${water?.name}, ${water?.sys.country}`}</h2>
             <p className="card-icon"><img src={ water ? iconUrl : ""} alt="icon-temp" /></p>
