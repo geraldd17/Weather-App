@@ -16,9 +16,10 @@ const Weather = ({ water, imagen }) => {
 
     let url = "http://openweathermap.org/img/wn/"
     let iconUrl = url + water?.weather[0].icon + "@4x.png"
-    //const iconotem = water?.weather[0].icon
+    const iconotem = water?.weather[0].icon
 
    // <img className="card-icon2" src={`http://openweathermap.org/img/wn/${iconotem}@2x.png`} alt="icon-temp"  />
+   // <img className="icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="Ups, something went wrong, Please refresh">
 
 
     return (
@@ -28,6 +29,7 @@ const Weather = ({ water, imagen }) => {
             <h1 className="card-title">Weather App</h1>
             <h2 className='card-city'>{`${water?.name}, ${water?.sys.country}`}</h2>
             <p className="card-icon"><img src={ water ? iconUrl : ""} alt="icon-temp" /></p>
+            <img className="card-icon2" src={`https://openweathermap.org/img/wn/${iconotem}@2x.png`} alt="icon-temp"  />
 
             <p className="card-clouds">"{water?.weather[0].description}"</p>
             <p className="speed"><i className="fa-solid fa-wind"> </i><span>Wind Speed:</span> {water?.wind.speed}m/s</p>

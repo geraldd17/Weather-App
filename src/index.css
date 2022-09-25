@@ -142,12 +142,20 @@
     margin-right: 210px;
 
 }
+.card-icon2 {
+    position: absolute;
+    margin-top: 80;
+}
 
 @media(max-width: 768px) {
     .card-icon {
         margin-top: 100px;
         margin-right: 150px;
 
+    }
+    .card-icon2{
+        position: absolute;
+        margin-top: 80;
     }
  
 
