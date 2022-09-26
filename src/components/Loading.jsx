@@ -4,34 +4,14 @@ const Loading = () => {
 
 
   return (
-  <div className="wrap-cloud">
- 
-			<div className="wrap-sun">
-				<div className="loader-sun">
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<span className="line"></span>
-					<div className="circle"></div>	
-				</div>
-			</div>
-			<div className="cloud">
-				<div className="cld-circle"></div>
-				<div className="cld-circle-small-1"></div>
-				<div className="cld-circle-small-2"></div>
-				<div className="cld-main"></div>	
-			</div>
-			<div className="cloud_2">
-				<div className="cld-circle"></div>
-				<div className="cld-circle-small-1"></div>
-				<div className="cld-circle-small-2"></div>
-				<div className="cld-main"></div>	
-			</div>
-		</div>
+    <div class="title-container">
+    <div class="spinner">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="46" />
+        </svg>
+    </div>
+    <h1 class="title">loading...</h1>
+</div>
   )
 }
 
