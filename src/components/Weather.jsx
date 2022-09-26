@@ -3,6 +3,7 @@ import React, { useState } from "react"
 
 
 
+
 const Weather = ({ water, imagen }) => {
     const [tem, setTem] = useState(true)
     const handleButton = () => setTem(!tem)
@@ -44,6 +45,9 @@ const Weather = ({ water, imagen }) => {
 
                     <p className="card-tem"> {(convertAf(celsius)).toFixed(1)} °F</p>
             }
+
+
+         
         </section>
     )
 }
