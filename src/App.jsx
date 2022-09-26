@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       {
 
-        { coordinates } ?
+        water ?
           <Weather water={water} imagen={imagen} />
           :
           <Loading />
